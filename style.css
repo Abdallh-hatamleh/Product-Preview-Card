@@ -99,6 +99,7 @@ button{
         height: 55vh;
         max-height: 80vh;
         /* width: 40rem; */
+        max-width: 45rem;
     }
     .pc-only-div{
         margin: 0;
