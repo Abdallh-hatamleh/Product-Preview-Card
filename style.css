@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+       
+}
+
+.pc-only{
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    /* margin: auto auto; */
+    overflow: hidden;
+    border-radius: 2rem;
+}
+main *{
+    margin: 1rem;
+}
+
+.mob-only  {
+    margin: 0;
+}
