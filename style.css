@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
-       
+    font-size: 14px; 
+    font-family: "Montserrat";
+    font-weight: 500;
 }
 
 .pc-only{
@@ -12,13 +14,14 @@ body {
     justify-content: center;
     background-color: hsl(30, 38%, 92%);
     align-items: center;
+    height: 100vh;
 }
 
 main {
     background-color: white;
     /* margin: auto auto; */
     overflow: hidden;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 main *{
     margin: 1rem;
@@ -26,4 +29,82 @@ main *{
 
 .mob-only  {
     margin: 0;
+    width: 100%;
 }
+
+h1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:  hsl(212, 21%, 14%);
+}
+
+.type {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3rem;
+}
+
+article{
+    color: hsl(228, 12%, 48%);
+    width: 295px;
+    line-height: 1.5rem;
+}
+.prices {
+    display: flex;
+    margin: 0 0 0 0;
+}
+.price {
+    font-family: "Fraunces";
+    color: hsl(158, 36%, 37%);
+    font-size: 2.5rem;
+}
+
+.old-price {
+    align-self: center;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+button{
+    width: 90%;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    *{
+        font-size: 16px;
+    }
+
+    body{
+        align-items: center;
+        height: 100vh;
+    }
+    .mob-only{
+        display: none;
+    }
+
+    .pc-only{
+        display: block;
+        margin: 0;
+    }
+    main {
+        display: flex;
+        height: 55vh;
+        width: 40rem;
+    }
+    .pc-only-div{
+        display: block;
+        margin: 0;
+        width: 19rem;
+    }
+
+    article{
+        width: auto;
+    }
+    }
