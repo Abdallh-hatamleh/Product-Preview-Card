@@ -90,24 +90,20 @@ button{
     }
 
     .pc-only{
-        display: block;
+        display: inline;
         margin: 0;
+        min-height: 20rem;
+        max-height: 100%;
+        height: 33rem;
     }
     main {
         display: flex;
-        min-height: 55vh;
-        height: 55vh;
-        max-height: 80vh;
-        /* width: 40rem; */
-        max-width: 45rem;
-    }
-    .pc-only-div{
-        margin: 0;
-        width: 19rem;
-        height: 100%;
     }
 
+    h1{
+        width: 16rem;
+    }
     article{
-        width: auto;
+        width: 16rem;
     }
     }
